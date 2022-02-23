@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    background: red;
+    padding: 10px 20px;
+    width: 30%;
+    margin: 3px auto;
+    border: none;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#game {
+   display: flex;
+   width: 770px;
+   margin: auto;
+   flex-flow: row wrap;
+}
+
+
+#game div {
+    width: 110px;
+    height: 110px;
+    background: gray;
+    border: 5px #eee solid;
+}
+
+
+#chrono {
+    font-size: 1.3rem;
+    width: 770px;
+    margin: 15px auto;
+    text-align: center;
+    background: #eee;
+    min-height: 155px;
+}
+#chrono p{
+   padding: 10px;
+}
+
+#progressBar {
+    display: block;
+    margin: auto;
+    color: #eee;
+    height: 15px;
+}
+
+#scores {
+    border-collapse: collapse;
+    width : 770px;
+    margin: 5vh auto;
+}
+
+#scores td  {
+   padding: 10px;
+    text-align: center;
+}
+#scores tr:nth-child(2n)  {
+   background: #eee;
+}
+#scores caption  {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+
